@@ -47,14 +47,14 @@ function render() {
   $app.innerHTML = `
   <h1>Freelancer Forum</h1
   <AverageRate></AverageRate>
-  <table>
-  <thead>
-  <tr>
-  <th>Name</th>
-  <th>Occupation</th>
-  <th>Rate>/th>
-  </tr>
-  </thead>
+        <table>
+       <thead>
+          <tr>
+            <th>Name</th>
+            <th>Occupation</th>
+            <th>Rate>/th>
+         </tr>
+        </thead>
   
    <tbody id="FreelancerRows"></tbody>
    </table>
